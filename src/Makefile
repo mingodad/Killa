@@ -31,7 +31,7 @@ PLATS= aix ansi bsd freebsd generic linux macosx mingw posix solaris
 KILLA_A=	libkilla.a
 CORE_O=	kapi.o kcode.o kctype.o kdebug.o kdo.o kdump.o kfunc.o kgc.o klex.o \
 	kmem.o kobject.o kopcodes.o kparser.o kstate.o kstring.o ktable.o \
-	ktm.o kundump.o kvm.o kzio.o
+	ktm.o kundump.o kvm.o kzio.o kubit.o
 LIB_O=	kauxlib.o kbaselib.o kbitlib.o kcorolib.o kdblib.o kiolib.o \
 	kmathlib.o koslib.o kstrlib.o ktablib.o koadlib.o kinit.o
 BASE_O= $(CORE_O) $(LIB_O) $(MYOBJS)
